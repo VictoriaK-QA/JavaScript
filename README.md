@@ -74,15 +74,15 @@ console.log(typeof(“item_7 == ”  item_7,  “item_7_type == ”  item_7_type
 ```
 26. Создать переменную “age_1” и присвоить ей значение 10 
 ```javascript 
-let “age_1” = 10;
+let age_1 = 10;
 ```
 27. Создать переменную “age_2” и присвоить ей значение 18 
 ```javascript
-let “age_2” = 18; 
+let age_2 = 18; 
 ```
 28. Создать переменную “age_3” и присвоить ей значение 60 
 ```javascript 
-let “age_3” = 60;
+let age_3 = 60;
 ```
 29. Создать if в котором будите проверять значение переменной age_1 
 ```javascript 
