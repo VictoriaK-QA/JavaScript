@@ -46,6 +46,7 @@ console.log(item_3 * item_4);
 16. Присвоить переменной item_5 переменную item_3 
 ```javascript 
 let item_5 = item_3;
+console.log(item_5);
 ```
 17. Создать переменную item_6 
 18. Создать переменную item_6_type 
@@ -53,11 +54,14 @@ let item_5 = item_3;
 20. Присвоить переменной item_6_type тип переменной item_6 
 ```javascript 
 let item_6 = 15;
+console.log(typeof(item_6));
 let item_6_type = tupeof(item_6);
 ```
 21. Вывести в консоль тип данных item_6 в виде ——  “item_6 == ”  item_6,  “item_6_type == ”  
 ```javascript 
-console.log(typeof(“item_6 == ”  item_6,  “item_6_type == ”  item_6_type));
+console.log(typeof('item_6 == ' +'item_6', 'item_6_type == ' +'item_6_type'));
+
+// console.log('item_6 == ' +item_6,  'item_6_type == ' +item_6_type);
 ```
 22. Создать переменную item_7 и в ней преобразовать item_6 в String 
 ```javascript 
@@ -70,7 +74,7 @@ let item_7_type = typeof(item_7);
 ```
 25. Вывести в консоль тип данных item_7 в виде ——  “item_7 == ”  item_7,  “item_7_type == ”  item_7_type ——   
 ```javascript 
-console.log(typeof(“item_7 == ”  item_7,  “item_7_type == ”  item_7_type));
+console.log(typeof('item_7 == ' +item_7,  'item_7_type == ' +item_7_type));
 ```
 26. Создать переменную “age_1” и присвоить ей значение 10 
 ```javascript 
@@ -93,8 +97,8 @@ if (age_1 = 10) {
 30. Если age_1 < age_2, вывести в консоль “You don’t have access cause your age is ” + age_1 + “ It’s less then ”
 ```javascript 
 if (age_1 < age_2) {    
-    console.log("You don’t have access cause your age is" ${age_1} "It’s less then")
-} 
+    console.log('You dont have access cause your age is '  + age_1 +  ' Its less then')
+}
 ```
 31. Если age_1 >=  age_2 и age_1 <  age_3, вывести в консоль “Welcome  !” 
 ```javascript 
